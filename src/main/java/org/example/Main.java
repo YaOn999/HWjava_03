@@ -18,7 +18,7 @@ public class Main {
     }
 
     static void removeEvenNumber(List<String> numbers) {
-        // TODO: 31.03.2023 Удалить все четные элементы из списка
+        // Удалить все четные элементы из списка
         for (int i = 0; i < numbers.size(); i++) {
             try {
                 Integer num = Integer.parseInt(numbers.get(i));
@@ -31,7 +31,7 @@ public class Main {
     }
 
     static void removeIntegers(List<String> strings) {
-        // TODO: 31.03.2023 Удалить строки, которые являются целыми числами
+        // Удалить строки, которые являются целыми числами
         for (int i = 0; i < strings.size(); i++) {
             try {
                 Integer num = Integer.parseInt(strings.get(i));
